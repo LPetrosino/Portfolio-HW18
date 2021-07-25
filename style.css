@@ -44,6 +44,11 @@ nav {
 #navTextb {
     margin-right: 60%;
 }
+@media only screen and (max-width: 500px) {
+    #navTextb {
+        margin-right: 20%;
+    }
+}
 #navButton {
     background: rgba(47, 52, 83, 0.3);
     border: 2px solid #FFFFFF;
@@ -57,6 +62,15 @@ nav {
     margin-right: auto;
     margin-left: auto;
 }
+@media only screen and (max-width: 500px) {
+    .content {
+        top: 0%;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 .heroText{
     display: flex;
     flex-direction: column;
@@ -99,6 +113,12 @@ nav {
 #footerTextb {
     margin-left: 30px;
     margin-right: auto;
+}
+@media only screen and (max-width: 500px) {
+    #footerTextb {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 .H1 {
     left: 0%;
@@ -177,6 +197,11 @@ nav {
     flex-grow: 0;
     margin-left: 8%;
 }
+@media only screen and (max-width: 500px) {
+    .myPhoto {
+        margin-left: 0%;
+    }
+}
 #blurb {
     display: flex;
     flex-direction: column;
@@ -184,6 +209,14 @@ nav {
     justify-content: center;
     position: static;
     margin-right: 8%;
+}
+@media only screen and (max-width: 500px) {
+    #blurb {
+        margin-left: 5%;
+        margin-right: 5%;
+        align-items: center;
+        justify-content: center;
+    }
 }
 .subH {
     width: 100%;
@@ -243,8 +276,14 @@ nav {
     margin-bottom: 75px;
     display: inline-flex;
     justify-content: space-between;
-    width: 100%;
-    
+    width: 100%;   
+}
+@media only screen and (max-width: 500px) {
+    #aboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .card1 {
     position: static;
@@ -306,9 +345,8 @@ h4 {
     
 }
 footer {
-    background: #262C4E;
+    background: #515671;
     /* position: absolute; */
-    height: 88px;
     width: 100%;
 }
 .fContainer {
@@ -319,6 +357,15 @@ footer {
     height: 88px;
     margin-left: 11.46%;
     margin-right: 11.46%;
+}
+@media only screen and (max-width: 500px) {
+    .fContainer{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-left: 11.46%;
+        margin-right: 11.46%;
+    }
 }
 button {
     display: flex;
@@ -338,20 +385,25 @@ button {
     color: #FFFFFF;
 }
 .contactButton {
-    background: #262C4E; 
+    background: #515671; 
     border: 2px solid #FFFFFF;
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 4px;
     margin-left: 20px;
 }
 .cvButton {
-    background: #262C4E; 
+    background: #515671; 
     border: 2px solid #FFFFFF;
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 4px;
 }
 #lnkdIn {
     margin-left: 15px;
+}
+@media only screen and (max-width: 500px) {
+    #lnkdIn {
+        margin-left: 0;
+    }
 }
 .cntr {
     display: flex;
