@@ -10,7 +10,7 @@ html, body {
     background-repeat: no-repeat;
     position: relative;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .backgroundImage {
         background-image: url('https://github.com/LPetrosino/Portfolio-HW18/blob/main/images/backgroundphone.png?raw=true');
         background-size: 100%;
@@ -44,7 +44,7 @@ nav {
 #navTextb {
     margin-right: 60%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #navTextb {
         margin-right: 20%;
     }
@@ -62,12 +62,9 @@ nav {
     margin-right: auto;
     margin-left: auto;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .content {
-        top: 0%;
         width: 90%;
-        margin-right: auto;
-        margin-left: auto;
     }
 }
 .heroText{
@@ -75,12 +72,12 @@ nav {
     flex-direction: column;
     padding: 0px;
     width: 100%;
-    margin-top: 22%;
+    margin-top: 15%;
     margin-bottom: auto;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .heroText{
-        margin-top: 8%;
+        margin-top: 12%;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -155,7 +152,7 @@ nav {
     flex-grow: 0;
     margin-bottom: 15px 0px;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .H1 {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -265,7 +262,7 @@ nav {
     flex-grow: 0;
     margin: 15px 0px;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .subH {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -293,7 +290,7 @@ nav {
 }
 @media only screen and (max-width: 600px) {
     #projectSection {
-        margin-top: -18%;
+        margin-top: -15%;
     }
 }
 #projects {
