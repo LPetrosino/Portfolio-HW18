@@ -10,7 +10,7 @@ html, body {
     background-repeat: no-repeat;
     position: relative;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .backgroundImage {
         background-image: url('https://github.com/LPetrosino/Portfolio-HW18/blob/main/images/backgroundphone.png?raw=true');
         background-size: 100%;
@@ -101,7 +101,6 @@ nav {
     margin-right: auto;
 }
 .H1 {
-    
     left: 0%;
     right: 40.81%;
     top: 0%;
@@ -126,6 +125,15 @@ nav {
     order: 0;
     flex-grow: 0;
     margin-bottom: 15px 0px;
+}
+@media only screen and (max-width: 500px) {
+    .H1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+    }
 }
 .line {
     position: static;
@@ -178,7 +186,6 @@ nav {
     margin-right: 8%;
 }
 .subH {
-    position: static;
     width: 100%;
     height: 65px;
     left: 0px;
@@ -191,7 +198,6 @@ nav {
     line-height: 65px;
     /* identical to box height, or 191% */
     
-    display: flex;
     align-items: center;
     text-indent: 6px;
     
@@ -204,6 +210,15 @@ nav {
     order: 2;
     flex-grow: 0;
     margin: 15px 0px;
+}
+@media only screen and (max-width: 500px) {
+    .subH {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 40.5px;
+    }
 }
 #projectSection {
     width: 100%;
