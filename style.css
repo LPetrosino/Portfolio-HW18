@@ -114,7 +114,7 @@ nav {
     margin-left: 30px;
     margin-right: auto;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #footerTextb {
         margin-left: 0;
         margin-right: 0;
@@ -146,7 +146,7 @@ nav {
     flex-grow: 0;
     margin-bottom: 15px 0px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .H1 {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -197,7 +197,7 @@ nav {
     flex-grow: 0;
     margin-left: 8%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .myPhoto {
         margin-left: 0%;
         width: 290px;
@@ -213,7 +213,7 @@ nav {
     position: static;
     margin-right: 8%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #blurb {
         margin-left: 5%;
         margin-right: 5%;
@@ -247,7 +247,7 @@ nav {
     flex-grow: 0;
     margin: 15px 0px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .subH {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -268,7 +268,7 @@ nav {
     backdrop-filter: blur(10px);
     /* Note: backdrop-filter has minimal browser support */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #projectSection {
         margin-top: -20%;
     }
@@ -286,7 +286,7 @@ nav {
     justify-content: space-between;
     width: 100%;   
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #aboutMe {
         display: flex;
         flex-direction: column;
@@ -366,7 +366,7 @@ footer {
     margin-left: 11.46%;
     margin-right: 11.46%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .fContainer{
         display: flex;
         flex-wrap: wrap;
@@ -408,7 +408,7 @@ button {
 #lnkdIn {
     margin-left: 15px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #lnkdIn {
         margin-left: 0;
     }
