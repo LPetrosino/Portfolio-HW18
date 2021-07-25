@@ -4,7 +4,7 @@ html, body {
     background: #F3F6FA;
 }
 .backgroundImage2 {
-    background-image: url(/images/backgroundImage2.png);
+    background-image: url(.../images/backgroundImage2.png);
     background-size: 100%;
     height: 100%;
     background-repeat: no-repeat;
