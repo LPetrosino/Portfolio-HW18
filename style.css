@@ -200,6 +200,9 @@ nav {
 @media only screen and (max-width: 500px) {
     .myPhoto {
         margin-left: 0%;
+        width: 290px;
+        height: 290px;
+        
     }
 }
 #blurb {
@@ -264,6 +267,11 @@ nav {
     background: rgba(255, 255, 255, 0.88);
     backdrop-filter: blur(10px);
     /* Note: backdrop-filter has minimal browser support */
+}
+@media only screen and (max-width: 500px) {
+    #projectSection {
+        margin-top: -20%;
+    }
 }
 #projects {
     display: inline-flex;
