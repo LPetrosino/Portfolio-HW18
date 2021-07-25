@@ -308,6 +308,11 @@ nav {
 }
 @media only screen and (max-width: 1024px) {
     #projectSection {
+        margin-top: -8%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #projectSection {
         margin-top: -11%;
     }
 }
