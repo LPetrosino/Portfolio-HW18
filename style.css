@@ -72,12 +72,17 @@ nav {
     flex-direction: column;
     padding: 0px;
     width: 100%;
-    margin-top: 15%;
+    margin-top: 18%;
     margin-bottom: auto;
 }
 @media only screen and (max-width: 1200px) {
     .heroText{
         margin-top: 12%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .heroText{
+        margin-top: 6%;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -157,8 +162,17 @@ nav {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 65px;
+        font-size: 60px;
         line-height: 90px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .H1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 70px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -271,6 +285,15 @@ nav {
         line-height: 40.5px;
     }
 }
+@media only screen and (max-width: 900px) {
+    .subH {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 38.5px;
+    }
+}
 #projectSection {
     width: 100%;
     padding-bottom: 69px;
@@ -285,7 +308,7 @@ nav {
 }
 @media only screen and (max-width: 1024px) {
     #projectSection {
-        margin-top: -8%;
+        margin-top: -11%;
     }
 }
 @media only screen and (max-width: 600px) {
