@@ -10,6 +10,15 @@ html, body {
     background-repeat: no-repeat;
     position: relative;
 }
+@media only screen and (max-width: 600px) {
+    .backgroundImage {
+        background-image: url('/images/backgroundphone.png');
+        background-size: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
 nav {
     display: flex;
     flex-direction: row;
