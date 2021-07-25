@@ -70,7 +70,6 @@ nav {
         margin-left: auto;
     }
 }
-
 .heroText{
     display: flex;
     flex-direction: column;
@@ -78,6 +77,16 @@ nav {
     width: 100%;
     margin-top: 22%;
     margin-bottom: auto;
+}
+@media only screen and (max-width: 1024px) {
+    .heroText{
+        margin-top: 8%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .heroText{
+        margin-top: 30%;
+    }
 }
 .projectscta {
     display: flex;
@@ -145,6 +154,15 @@ nav {
     order: 0;
     flex-grow: 0;
     margin-bottom: 15px 0px;
+}
+@media only screen and (max-width: 1024px) {
+    .H1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 65px;
+        line-height: 90px;
+    }
 }
 @media only screen and (max-width: 600px) {
     .H1 {
@@ -247,7 +265,7 @@ nav {
     flex-grow: 0;
     margin: 15px 0px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     .subH {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -268,9 +286,14 @@ nav {
     backdrop-filter: blur(10px);
     /* Note: backdrop-filter has minimal browser support */
 }
+@media only screen and (max-width: 1024px) {
+    #projectSection {
+        margin-top: -8%;
+    }
+}
 @media only screen and (max-width: 600px) {
     #projectSection {
-        margin-top: -10%;
+        margin-top: -18%;
     }
 }
 #projects {
