@@ -10,6 +10,15 @@ html, body {
     background-repeat: no-repeat;
     position: relative;
 }
+@media only screen and (max-width: 600px) {
+    .backgroundImage {
+        background-image: url('https: //github .com/LPetrosino/Portfolio HW 18px /blob/main/images/backgroundphone 2px;.png?raw=true');
+        background-size: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -35,6 +44,11 @@ nav {
 #navTextb {
     margin-right: 60%;
 }
+@media only screen and (max-width: 600px) {
+    #navTextb {
+        margin-right: 20%;
+    }
+}
 #navButton {
     background: rgba(47, 52, 83, 0.3);
     border: 2px solid #FFFFFF;
@@ -48,6 +62,11 @@ nav {
     margin-right: auto;
     margin-left: auto;
 }
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 90%;
+    }
+}
 .heroText{
     display: flex;
     flex-direction: row;
@@ -56,6 +75,21 @@ nav {
     width: 100%;
     margin-top: 22%;
     margin-bottom: auto;
+}
+@media only screen and (max-width: 1200px) {
+    .heroText{
+        margin-top: 12%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .heroText{
+        margin-top: 6%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .heroText{
+        margin-top: 30%;
+    }
 }
 .heroTextlayout{
     margin-left: 4%;
@@ -108,8 +142,13 @@ nav {
     margin-left: 30px;
     margin-right: auto;
 }
+@media only screen and (max-width: 600px) {
+    #footerTextb {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
 .H1 {
-    
     left: 0%;
     right: 40.81%;
     top: 0%;
@@ -134,6 +173,33 @@ nav {
     order: 0;
     flex-grow: 0;
     margin-bottom: 15px;
+}
+@media only screen and (max-width: 1200px) {
+    .H1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 90px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .H1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .H1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+    }
 }
 .line {
     position: static;
@@ -164,13 +230,13 @@ nav {
     width: 325px;
     height: 325px;
 }
-#blurb {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    position: static;
-    margin-right: 8%;
+@media only screen and (max-width: 600px) {
+    .myPhoto {
+        margin-left: 0%;
+        width: 290px;
+        height: 290px;
+        
+    }
 }
 .subH {
     position: static;
@@ -200,6 +266,24 @@ nav {
     flex-grow: 0;
     margin: 15px 0px;
 }
+@media only screen and (max-width: 1200px) {
+    .subH {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 40.5px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .subH {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 38.5px;
+    }
+}
 #projectSection {
     width: 100%;
     padding-bottom: 69px;
@@ -214,60 +298,26 @@ nav {
     
     /* Note: backdrop-filter has minimal browser support */
 }
+@media only screen and (max-width: 1024px) {
+    #projectSection {
+        margin-top: -8%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #projectSection {
+        margin-top: -11%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #projectSection {
+        margin-top: -15%;
+    }
+}
 #projects {
     display: inline-flex;
     justify-content: center;
     width: 100%;
     margin-bottom: 74px;
-}
-#aboutMe {
-    margin-top: 75px;
-    margin-bottom: 75px;
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
-    
-}
-.card1 {
-    position: static;
-    width: 40%;
-    left: 56px;
-    top: 47px;
-
-    /* Inside Auto Layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 37px;
-    background-color: white;
-    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
-}
-.cardImg {
-    position: static;
-    width: 100%;
-    left: calc(50% - 545px/2);
-    top: 0%;
-    flex: none;
-    order: 0;
-    align-self: auto;
-    flex-grow: 0;
-    margin: 0px 0px;
-    border: 0.5px solid rgba(13, 50, 89, 0.2);
-}
-.cardDesc {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: 5%;
-    padding-right: 5%;
-
-    position: static;
-    width: fit-content;
-    height: inherit;
-
-    background: #FFFFFF;
-    box-sizing: border-box;
 }
 h3, p {
     font-family: 'Montserrat', sans-serif;
@@ -334,6 +384,11 @@ button {
 }
 #lnkdIn {
     margin-left: 15px;
+}
+@media only screen and (max-width: 600px) {
+    #lnkdIn {
+        margin-left: 0;
+    }
 }
 .cntr {
     display: flex;
