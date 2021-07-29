@@ -123,6 +123,11 @@ nav {
     margin-left: 2%;
     height: 3.5rem;
 }
+@media only screen and (max-width: 600px) {
+    .aboutcta img {
+        height: 3rem;
+    }
+}
 .footerText {
     left: 24.83%;
     right: 24.83%;

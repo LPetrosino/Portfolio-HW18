@@ -146,6 +146,11 @@ nav {
     margin-left: 2%;
     height: 3.5rem;
 }
+@media only screen and (max-width: 600px) {
+    .aboutcta img {
+        height: 3rem;
+    }
+}
 .sectionTitles {
     display: flex;
     align-items: center;
@@ -428,6 +433,25 @@ button {
     line-height: 16px;
     /* identical to box height, or 67% */
     color: #FFFFFF;
+}
+@media only screen and (max-width: 600px) {
+    button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: bottom;
+        padding: 18px 25px;
+        height: 52px;
+        
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 16px;
+        /* identical to box height, or 67% */
+        color: #FFFFFF;
+    }
 }
 .contactButton {
     background: transparent;
