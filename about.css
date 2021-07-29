@@ -85,7 +85,6 @@ nav {
 }
 @media only screen and (max-width: 600px) {
     .heroText{
-        margin-top: 15%;
         flex-direction: column;
     }
 }
@@ -230,8 +229,8 @@ nav {
 @media only screen and (max-width: 600px) {
     .myPhoto {
         margin-left: 0%;
-        width: 260px;
-        height: 260px;
+        width: 240px;
+        height: 240px;
         margin-bottom: 6%;
         
     }
