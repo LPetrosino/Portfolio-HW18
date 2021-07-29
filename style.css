@@ -40,14 +40,11 @@ nav {
     line-height: 16px;
     /* identical to box height, or 67% */
     color: #FFFFFF;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 #navTextb {
-    margin-right: 60%;
-}
-@media only screen and (max-width: 600px) {
-    #navTextb {
-        margin-right: 20%;
-    }
+    margin-inline-end: auto;
 }
 #navButton {
     background: rgba(47, 52, 83, 0.3);
@@ -117,19 +114,12 @@ nav {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 16px;
     /* identical to box height, or 67% */
     color: #FFFFFF;
 }
 #footerTextb {
     margin-left: 30px;
     margin-right: auto;
-}
-@media only screen and (max-width: 600px) {
-    #footerTextb {
-        margin-left: 0;
-        margin-right: 0;
-    }
 }
 .H1 {
     left: 0%;
@@ -202,8 +192,8 @@ nav {
 }
 .line2, .line3 {
     width: 86%;
-    height: 5px;
-    background: #0D3259 16%;
+    height: 1.5px;
+    background: #D8DEE4;
     margin-left: 7%;
     margin-right: 7%;
 }
@@ -398,29 +388,65 @@ h4 {
     font-size: 24px;
     line-height: 29px;
     color: #173256;
-    
+    text-align: end; 
+}
+@media only screen and (max-width: 600px) {
+    h4 {
+        text-align: left; 
+    }
 }
 footer {
-    background: #515671;
-    /* position: absolute; */
+    background: #60748E;
     width: 100%;
+}
+@media only screen and (max-width: 500px) {
+    footer {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
 }
 .fContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 88px;
+    height: auto;
     margin-left: 11.46%;
     margin-right: 11.46%;
 }
 @media only screen and (max-width: 600px) {
     .fContainer{
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         height: auto;
-        margin-left: 11.46%;
-        margin-right: 11.46%;
+        margin-left: 14.46%;
+        margin-right: 14.46%;
+    }
+}
+.footerItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1%;
+}
+.footerItem2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;;
+    margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+    .footerItem2{
+        margin: 1%;
+    }
+}
+#lnkdIn {
+    margin-left: 1rem;
+}
+@media only screen and (max-width: 500px) {
+    #lnkdIn {
+        margin-left: 2%;
     }
 }
 button {
@@ -441,24 +467,24 @@ button {
     color: #FFFFFF;
 }
 .contactButton {
-    background: #515671; 
+    background: transparent;
     border: 2px solid #FFFFFF;
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 4px;
-    margin-left: 20px;
 }
 .cvButton {
-    background: #515671; 
+    background: transparent;
     border: 2px solid #FFFFFF;
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 4px;
 }
-#lnkdIn {
-    margin-left: 15px;
-}
-@media only screen and (max-width: 600px) {
-    #lnkdIn {
-        margin-left: 0;
+@media only screen and (max-width: 860px) {
+    .cvButton {
+        border: 2px solid #FFFFFF;
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .cntr {
