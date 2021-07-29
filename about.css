@@ -9,6 +9,7 @@ html, body {
     height: 100%;
     background-repeat: no-repeat;
     position: relative;
+    z-index: 0;
 }
 @media only screen and (max-width: 600px) {
     .backgroundImage2 {
@@ -16,8 +17,6 @@ html, body {
         background-size: 100%;
         height: 100%;
         background-repeat: no-repeat;
-        position: relative;
-        z-index: 0;
     }
 }
 nav {
@@ -293,7 +292,8 @@ nav {
 
     background: rgba(255, 255, 255, 0.88);
     backdrop-filter: blur(10px);
-
+    position: relative;
+    z-index: 1;
     
     /* Note: backdrop-filter has minimal browser support */
 }
