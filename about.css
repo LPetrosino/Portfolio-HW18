@@ -209,7 +209,7 @@ nav {
         font-style: normal;
         font-weight: 600;
         font-size: 60px;
-        line-height: 90px;
+        line-height: 70px;
     }
 }
 @media only screen and (max-width: 900px) {
@@ -226,8 +226,8 @@ nav {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 40px;
     }
 }
 .line {
