@@ -110,6 +110,42 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
 }
+.aboutcta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6%;
+    margin-bottom: 1%;
+    color: #FFFFFF;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33.99px;
+    line-height: 65px;
+    position: relative;
+    z-index: 1;
+    order: 3;
+}
+@media only screen and (max-width: 1024px) {
+    .aboutcta {
+        margin-top: -8%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .aboutcta {
+        margin-top: -11%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .aboutcta {
+        margin-top: -22%;
+    }
+}
+.aboutcta img {
+    margin-left: 2%;
+    height: 3.5rem;
+}
 .sectionTitles {
     display: flex;
     align-items: center;
@@ -123,9 +159,6 @@ nav {
     font-size: 33.99px;
     line-height: 65px;
     order: 3;
-}
-.sectionTitles img {
-    margin-left: 2%;
 }
 .footerText {
     left: 24.83%;
@@ -284,7 +317,6 @@ nav {
 #projectSection {
     width: 100%;
     padding-bottom: 69px;
-    margin-top: -5%;
     margin-bottom: 8%;
     height: auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);;
@@ -295,21 +327,6 @@ nav {
     z-index: 1;
     
     /* Note: backdrop-filter has minimal browser support */
-}
-@media only screen and (max-width: 1024px) {
-    #projectSection {
-        margin-top: -8%;
-    }
-}
-@media only screen and (max-width: 900px) {
-    #projectSection {
-        margin-top: -11%;
-    }
-}
-@media only screen and (max-width: 600px) {
-    #projectSection {
-        margin-top: -15%;
-    }
 }
 #projects {
     display: inline-flex;

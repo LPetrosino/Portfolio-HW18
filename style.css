@@ -104,8 +104,24 @@ nav {
     z-index: 1;
     order: 3;
 }
+@media only screen and (max-width: 1024px) {
+    .projectscta {
+        margin-top: -8%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .projectscta {
+        margin-top: -11%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .projectscta {
+        margin-top: -22%;
+    }
+}
 .projectscta img {
     margin-left: 2%;
+    height: 3.5rem;
 }
 .footerText {
     left: 24.83%;
@@ -299,21 +315,6 @@ nav {
     position: relative;
     z-index: 1;
     /* Note: backdrop-filter has minimal browser support */
-}
-@media only screen and (max-width: 1024px) {
-    #projectSection {
-        margin-top: -8%;
-    }
-}
-@media only screen and (max-width: 900px) {
-    #projectSection {
-        margin-top: -11%;
-    }
-}
-@media only screen and (max-width: 600px) {
-    #projectSection {
-        margin-top: -15%;
-    }
 }
 #projects {
     display: inline-flex;
