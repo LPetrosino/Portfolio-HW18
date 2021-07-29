@@ -422,8 +422,10 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         height: auto;
-        margin-left: 14.46%;
-        margin-right: 14.46%;
+        align-content: center;
+        align-items: stretch;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 .footerItems{
