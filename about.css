@@ -230,8 +230,8 @@ nav {
 @media only screen and (max-width: 600px) {
     .myPhoto {
         margin-left: 0%;
-        width: 290px;
-        height: 290px;
+        width: 260px;
+        height: 260px;
         margin-bottom: 6%;
         
     }
